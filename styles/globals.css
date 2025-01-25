@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'cryptofont';
+  src: url('/fonts/cryptofonts/cryptofont.woff2') format('woff2'),
+       url('/fonts/cryptofonts/cryptofont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cf {
+  font-family: 'cryptofont';
+}
+
+/* You can add any additional global styles here */
